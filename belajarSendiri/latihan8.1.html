@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript">
+        var pesan = "Dilarang Masuk selain Petugas!";
+        function warning()
+        {
+            alert(pesan);
+        }
+        function password ()
+        {
+            var password = prompt ("Masukkan Password");
+            if (password !='amir')
+        {
+        alert ('Gagal');
+        }
+        else
+        {
+            alert('Sukses');
+        }
+    }
+
+    </script>
+</head>
+<body onload="warning();">
+    <p><b>TEMPAT RAHASIA</b></p>
+    <p>Sesekali lagi saya tegaskan jangan memasuki area ini selain petugas BERBAHAYA!!!</p>
+    <a href="javascript: password();">Masuk =></a>
+    
+</body>
+</html>

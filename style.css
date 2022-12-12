@@ -1,0 +1,23 @@
+th{
+    color: red;
+}
+
+.Nama:hover{
+    color:aqua;
+}
+
+.gambar:hover{
+    color: blueviolet;
+}
+
+.jurusan:hover {
+    color: blue;
+}
+
+.email:hover {
+    color: brown;
+}
+
+.asal:hover{
+    color:bisque ;
+}

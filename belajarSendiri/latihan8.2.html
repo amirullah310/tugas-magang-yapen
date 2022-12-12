@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript">
+      
+      function warning(pesan_kita)
+{
+    alert(pesan_kita);
+}
+function Email (pesan_prompt , pesan_sukses, pesan_gagal)
+{
+   
+    var Email = prompt(pesan_prompt);
+    if (Email !='petugas')
+    {
+        alert(pesan_gagal);
+    }
+    else
+    {
+        alert(pesan_sukses);
+    }
+    }
+    
+    </script>
+</head>
+<body onload="warning('Dilarang Masuk Selain Petugas');">
+    <p><b>TEMPAT RAHASIA</b></p>
+    <p>Sekali lagi saya tegaskan jangan memasuki area ini selain petugas. BERBAHAYA!!!</p>
+    <a href="javascript: password('Masukkan Password:', 'Password Benar!', 'Password Salah');">Masuk =></a>
+     <a href="javascript: Email('Masukkan Email:', 'Email Benar!', 'Email Salah');">Masuk =></a>
+
+</body>
+</html>

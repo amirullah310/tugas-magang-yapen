@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--Kontrol text-->
+    <h2>Demo Membuat Kontrol TEXT</h2>
+    <form>
+Nama : <br/>
+<input type="text" name="txtNama" size="30" />
+<br/>
+Alamat : <br/>
+<input type="text" name="txtNama" size="50" >
+<br/>
+No. Telepon : <br/>
+<input type="text" name="txtNama" size="20" />
+<br/>
+<p><input type="submit" value="submit"/></p>    
+</form>
+
+<!--Kontrol Text Area-->
+<h2>Demo Membuat Kontrol TEXTAREA</h2>
+<p>Silahkan isi komentar Anda tentang situs ini :</p>
+<form>
+    Nama : <br/>
+    <input type="text" name="txtEmail" size="30"/><br/>
+    Email : <br/>
+    <input type="text" name="txtEmail" size="50"/><br/>
+    Komentar : <br/>
+    <textarea name="komentar" cols="40" rows="4"></textarea>
+    <p><input type="submit" value="Submit"/></p>
+</form>
+ <!--Kontrol Radiobutton-->
+ <h2>Demo Membuat Kontrol RADIO</h2>
+ <form>
+    Nama : <br/>
+    <input type="text" name="txtNama" size="30"/>
+    <br/>
+    Jenis Kelamin : <br/>
+    <input type="radio" name="gender" value="0"/> Pria
+    <input type="radio" name="gender" value="0"/> Wanita
+    <br/>
+    Status Pernikahan : <br/> 
+    <input type="radio" name="Status" value="L"/> Lajang
+    <input type="radio" name="Status" value="M"/> Menikah
+    <input type="radio" name="Status" value="D"/> Duda
+    <input type="radio" name="Status" value="J"/> Janda
+    <p><input type="submit" value="Submit"/></p>
+
+ </form>
+<!--Kontrol Checkbox-->
+<h2>Demo Membuat Kontrol CHECkBOX</h2>
+<form>
+    <p>Merk mobil yang anda sukai : </p>
+    <input type="checkbox" name="merk[]" value="0"/>Audi
+    <br/>
+    <input type="checkbox" name="merk[]" value="1"/>BMW
+    <br/>
+    <input type="checkbox" name="merk[]" value="2"/>Chevrolet
+    <br/>
+    <input type="checkbox" name="merk[]" value="3"/>Jeep
+    <br/>
+    <input type="checkbox" name="merk[]" value="4"/>Daihatsu
+    <br/>
+    <input type="checkbox" name="merk[]" value="5"/>Ford
+    <br/>
+    <input type="checkbox" name="merk[]" value="6"/>Lain - lain
+    <br/>
+    <p><input type="submit" value="Submit"/></p>
+</form>
+<!--Kontrol Listbox-->
+<h2>Demo Membuat Kontrol Listbox</h2>
+<form>
+    <p>Pilih merk mobil:</p>
+    <select name="mobil" size="10">
+     <option value="0">Audi</option>
+     <option value="1">BMW</option>
+     <option value="2">Chevrolet</option>
+     <option value="3">Jeep</option>
+     <option value="4">Daihatsu</option>
+     <option value="5">Ford</option>
+     <option value="6">Lain-lain</option>
+    </select>
+    <p><input type="submit" value="Submit" /> </p>
+</form>
+<!--Kontrol Combobox-->
+<h2>Demo Membuat Kontrol Combobox</h2>
+<form>
+    <p>Pilih merk mobil:</p>
+    <select name="mobil" size="1">
+     <option value="0">Audi</option>
+     <option value="1">BMW</option>
+     <option value="2">Chevrolet</option>
+     <option value="3">Jeep</option>
+     <option value="4">Daihatsu</option>
+     <option value="5">Ford</option>
+     <option value="6">Lain-lain</option>
+    </select>
+    <p><input type="submit" value="Submit" /> </p>
+</form>
+<!--Kontrol Password-->
+<h2>Demo Membuat Kontrol Password</h2>
+<form >
+    Username :
+    <input type="text" name="username " size="25" /><br/>
+    Password :
+    <input type="password" name="userpassword" size="25"/>
+    <p><input type="submit" value="Submit"/></p>
+</form>
+<!--Kontrol Reset-->
+<h2>Demo Membuat Kontrol Reset</h2>
+<form>
+    Nama :
+    <input type="text " name="nama" size="25"/><br/>
+    Alamat :
+    <input type="text " name="alamat" size="25"/><br/>
+Jenis Kelamin :
+<select>
+    <option value="0">Pria</option>
+    <option value="1">Wanita</option>
+</select>
+<p>
+    <input type="submit" value="submit"/>
+    <input type="reset"/>
+</p>
+</form>
+</body>
+</html>

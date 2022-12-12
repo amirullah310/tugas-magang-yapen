@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="alert('Halaman ini telah selesai di loading')">
+    <!-- for -->
+    <h2>For</h2>
+    <script>
+        for (i = 1; i <= 10; i++) {
+            document.write(i);
+        }
+    </script>
+    <br>
+
+<!-- while -->
+<h2>While</h2>
+    <script>
+        var i=1;
+        while (i<=5)
+        {
+            document.write("Nomor : "+i +"<br />");
+            i++;
+        }
+    </script>
+    <br>
+
+    <!-- onclick -->
+    <h2>Onclick</h2>
+    <form name="go">
+<input type="radio" name="C1" onclick="document.bgColor='lightblue'">
+<input type="radio" name="C1" onclick="document.bgColor='lightyellow'">
+<input type="radio" name="C1" onclick="document.bgColor='lightgreen'">
+
+    </form> 
+    <br>
+
+    <!-- onload  -->
+    <h2>Onload</h2>
+welcome to my page
+<br>
+
+<!-- onmouseover dan onmouseout  -->
+<h2>Onmouseover dan onmouseout</h2>
+<table>
+    <tr onmouseover="this.bgColor='lightblue'" onmouseout="this.bgColor='red'" bgcolor="#efefef">
+        <td>Baris Pertama</td>
+
+    </tr>
+    <tr>
+        <td>Baris Kedua</td>
+    </tr>
+</table>
+<br>
+
+<!-- onunload -->
+<h2>onunload</h2>
+<a href="onunload.html">Link onunload</a>
+</body>
+</html>
